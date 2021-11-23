@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+@font-face {
+    font-family:'neulis';
+    src: url('NeulisAlt-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+        body {
+            font-family: sans-serif;
+            padding-left: 250px;
+            padding-right: 250px;
+        }
+        header {
+            min-height: 150px;
+            text-align: center;
+        }
+        picture {
+            text-align: center;
+        }
+        article {
+            padding: 50px;
+            margin: auto;
+        }
+
+        nav{
+            text-decoration: none;
+            background-color: tomato;
+            color: white;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.103);
+            height: 30px;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            text-align: center;
+            
+        
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 16px;
+            
+        }
+        nav > a:hover {
+            text-decoration: solid;
+            background-color: brown;
+            padding-top: 15px;
+            padding-bottom: 18px;
+            
+        }
+        a:active {
+            background-color: tomato;
+        }
+
+        h1 {
+            color: #FF523D;
+            font-size: 1.5em;
+            font-family:'neulis', 'berkshire';
+        }
+        h1#principal {
+            text-align: center;
+            }
+        h1#box {
+            background-color: rgba(247, 158, 57, 0.603);
+            height: 300px;
+            width: 300px;
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+        }
+        h2 {
+            color:rgb(44, 43, 43);
+            font-size: 18px;
+            font-family: 'Delius', cursive;
+        }
+        h3 {
+            color:rgb(92, 90, 90);
+            font-size: 1em;
+            font-family: 'Delius', cursive;
+            
+        }
+        p {
+            font-size: 1em;
+            text-align: justify;
+        }
+        strong {
+            color: #FF523D;
+        }
+        footer {
+            background-color: orangered;
+            color: white;
+            padding: 10px 30px;
+    
+        }
